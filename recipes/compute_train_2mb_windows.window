@@ -4,6 +4,7 @@
     "enabled": false
   },
   "ntileValues": "10",
+  "keys": [],
   "values": [
     {
       "last": false,
@@ -12,9 +13,11 @@
       "firstLastNotNull": false,
       "column": "col_0",
       "count": false,
+      "$idx": 0,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -35,9 +38,11 @@
       "firstLastNotNull": false,
       "column": "col_1",
       "count": false,
+      "$idx": 1,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -58,9 +63,11 @@
       "firstLastNotNull": false,
       "column": "col_2",
       "count": false,
+      "$idx": 2,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -81,9 +88,11 @@
       "firstLastNotNull": false,
       "column": "col_3",
       "count": false,
+      "$idx": 3,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -104,9 +113,11 @@
       "firstLastNotNull": false,
       "column": "col_4",
       "count": false,
+      "$idx": 4,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -127,9 +138,11 @@
       "firstLastNotNull": false,
       "column": "col_5",
       "count": false,
+      "$idx": 5,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -150,9 +163,11 @@
       "firstLastNotNull": false,
       "column": "col_6",
       "count": false,
+      "$idx": 6,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -173,9 +188,11 @@
       "firstLastNotNull": false,
       "column": "col_7",
       "count": false,
+      "$idx": 7,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -190,6 +207,66 @@
       "first": false
     }
   ],
+  "windows": [
+    {
+      "windowLimitMode": "ROWS",
+      "windowUpperBound": 0,
+      "enablePartitioning": false,
+      "enableOrdering": false,
+      "precedingRows": 2,
+      "limitFollowing": false,
+      "orders": [],
+      "limitPreceding": true,
+      "followingRows": 0,
+      "windowLowerBound": 0,
+      "enableLimits": true
+    }
+  ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "col_0",
+            "type": "string"
+          },
+          {
+            "name": "col_1",
+            "type": "string"
+          },
+          {
+            "name": "col_2",
+            "type": "string"
+          },
+          {
+            "name": "col_3",
+            "type": "string"
+          },
+          {
+            "name": "col_4",
+            "type": "string"
+          },
+          {
+            "name": "col_5",
+            "type": "string"
+          },
+          {
+            "name": "col_6",
+            "type": "string"
+          },
+          {
+            "name": "col_7",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    },
+    "distinct": false,
+    "enabled": false
+  },
+  "cumeDist": false,
   "engineParams": {
     "hive": {
       "skipPrerunValidate": false,
@@ -220,25 +297,6 @@
   "ntile": false,
   "rank": false,
   "denseRank": false,
-  "windows": [
-    {
-      "windowUpperBound": 0.0,
-      "enablePartitioning": false,
-      "enableOrdering": false,
-      "precedingRows": 0,
-      "limitFollowing": false,
-      "orders": [],
-      "limitPreceding": false,
-      "followingRows": 0,
-      "windowLowerBound": 0.0,
-      "enableLimits": false
-    }
-  ],
   "rowNumber": false,
-  "computedColumns": [],
-  "postFilter": {
-    "distinct": false,
-    "enabled": false
-  },
-  "cumeDist": false
+  "outputColumnNameOverrides": {}
 }
