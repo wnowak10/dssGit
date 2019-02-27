@@ -4,7 +4,7 @@
       "remote": "https://github.com/wnowak10/test.git",
       "checkout": "refs/heads/master",
       "remotePath": "",
-      "lastHash": "5f66e1d2d451cfd8173f8908914bd0d8e096ba89"
+      "lastHash": "c78aed43cb05d5971ba2d74866c7d2a61b14a4d6"
     }
   },
   "pythonPath": [
