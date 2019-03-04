@@ -1,0 +1,37 @@
+{
+  "type": "STANDARD",
+  "hasLegacyBackendURL": false,
+  "params": {
+    "backendEnabled": false,
+    "autoStartBackend": false,
+    "envSelection": {
+      "envMode": "INHERIT"
+    },
+    "libraries": [
+      "jquery",
+      "dataiku"
+    ]
+  },
+  "config": {},
+  "name": "tets",
+  "apiKey": "bX9LY0Kzwi54av5jAlrend0FWOq4evij",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1551736635023
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1551736635023
+  },
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  },
+  "customFields": {}
+}

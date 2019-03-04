@@ -1,0 +1,23 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false
+    },
+    "id": "VdWjtk8xYcF2zitH",
+    "key": "bX9LY0Kzwi54av5jAlrend0FWOq4evij",
+    "label": "Key for Web app tets(TFPgCcR)",
+    "createdOn": 1551736635012
+  }
+]
