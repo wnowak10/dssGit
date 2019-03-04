@@ -9,7 +9,7 @@ var bodyy = { "features" : {
 
 var resultt = fetch(url, {
         method: "POST", 
-        mode: "no-cors", 
+        mode: "cors", 
         cache: "no-cache", 
         credentials: "same-origin", 
         headers: {
