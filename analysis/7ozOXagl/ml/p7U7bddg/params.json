@@ -2,7 +2,7 @@
   "predictionType": "BINARY_CLASSIFICATION",
   "targetVariable": "col_7",
   "weight": {
-    "weightMethod": "CLASS_WEIGHT"
+    "weightMethod": "SAMPLE_WEIGHT"
   },
   "calibration": {
     "calibrationMethod": "NO_CALIBRATION"
