@@ -778,7 +778,8 @@
       "enabled": true,
       "kerasInputs": [
         "main"
-      ]
+      ],
+      "buildCode": "import torch\nx \u003d torch.empty(5, 3)\nprint(x)"
     },
     "grid_search": true,
     "gridSearchParams": {
@@ -820,7 +821,8 @@
   "backendType": "KERAS",
   "maxConcurrentModelTraining": 2,
   "envSelection": {
-    "envMode": "INHERIT"
+    "envMode": "EXPLICIT_ENV",
+    "envName": "pytorch"
   },
   "containerSelection": {
     "containerMode": "INHERIT"
