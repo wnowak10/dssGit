@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1557757159236
+    "lastModifiedOn": 1557757498181
   },
   "creationTag": {
     "versionNumber": 0,
@@ -268,7 +268,8 @@
         "softMaximumEnabled": true,
         "type": "numericRange",
         "meta": {
-          "name": "Value in range"
+          "name": "Value in range",
+          "label": "avg"
         },
         "computeOnBuildMode": "PARTITION"
       }
