@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1557757082549
+    "lastModifiedOn": 1557757159236
   },
   "creationTag": {
     "versionNumber": 0,
@@ -259,7 +259,7 @@
       {
         "metricId": "col_stats:MEAN:col_3",
         "minimum": 0.0,
-        "maximum": 100.0,
+        "maximum": 15.0,
         "softMinimum": 0.0,
         "softMaximum": 10.0,
         "minimumEnabled": true,
