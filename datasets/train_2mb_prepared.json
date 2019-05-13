@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1557757498181
+    "lastModifiedOn": 1557757504416
   },
   "creationTag": {
     "versionNumber": 0,
@@ -276,7 +276,9 @@
     ],
     "displayedState": {
       "partition": "NP",
-      "checks": []
+      "checks": [
+        "Value in range of Avg of col_3"
+      ]
     }
   },
   "customFields": {}
