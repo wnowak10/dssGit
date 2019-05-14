@@ -27,11 +27,57 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 1,
+              "left": 9,
+              "width": 3,
+              "height": 5
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "CONTRIBUTION_CHARTS",
+              "summaryChart": "commits",
+              "timeSpan": "year",
+              "contributorsChart": "commits"
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "Uz6zcrJ",
+            "insightType": "project_activity",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
-      "showTitle": false,
-      "backgroundColor": "#a32222"
+      "showTitle": false
+    },
+    {
+      "id": "NhEYrjv",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "IFRAME",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 6,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "url": "espn.com"
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "showTitle": false
     }
   ],
   "owner": "admin",
@@ -39,11 +85,11 @@
   "name": "test\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1557838152647
+    "lastModifiedOn": 1557838191862
   },
   "creationTag": {
     "versionNumber": 0,
