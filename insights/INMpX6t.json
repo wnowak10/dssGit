@@ -41,9 +41,47 @@
         "autoRefreshSample": false,
         "_refreshTrigger": 0
       },
-      "exploreUIParams": {},
+      "exploreUIParams": {
+        "autoRefresh": true
+      },
       "globalSearchQuery": "",
-      "explorationFilters": [],
+      "explorationFilters": [
+        {
+          "column": "col_4",
+          "type": "columnFilter",
+          "currentMode": "FACET",
+          "active": true,
+          "facet": {
+            "type": "facet",
+            "column": "col_4",
+            "columnType": "NUMERICAL",
+            "currentMode": "NUMERICAL",
+            "sort": "count",
+            "maxValue": 207.71,
+            "selectedValues": {}
+          },
+          "alphanumFilter": {
+            "type": "alphanum",
+            "column": "col_4",
+            "values": [],
+            "params": {
+              "mode": "full_string",
+              "normalization": "exact"
+            }
+          },
+          "validityFilter": {
+            "type": "validity",
+            "column": "col_4",
+            "params": {
+              "type": "LongMeaning",
+              "ok": true,
+              "nok": true,
+              "empty": true
+            }
+          },
+          "$$hashKey": "object:7986"
+        }
+      ],
       "previewMode": "ALL_ROWS"
     }
   },
@@ -52,11 +90,11 @@
   "name": "train_2mb table",
   "dashboardCreationId": "SL20YBl",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1557842002741
+    "lastModifiedOn": 1557842084500
   },
   "creationTag": {
     "versionNumber": 0,
