@@ -30,7 +30,8 @@
           }
         ]
       },
-      "showTitle": false
+      "showTitle": false,
+      "backgroundColor": "#a32222"
     }
   ],
   "owner": "admin",
@@ -38,11 +39,11 @@
   "name": "test\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1557838138870
+    "lastModifiedOn": 1557838149358
   },
   "creationTag": {
     "versionNumber": 0,
