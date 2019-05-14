@@ -88,8 +88,8 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 6,
-              "height": 3
+              "width": 9,
+              "height": 5
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -117,11 +117,11 @@
   "name": "test\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1557842014377
+    "lastModifiedOn": 1557842047556
   },
   "creationTag": {
     "versionNumber": 0,
