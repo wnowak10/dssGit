@@ -1,0 +1,29 @@
+{
+  "type": "project_activity",
+  "params": {
+    "projectKey": "TEST"
+  },
+  "owner": "admin",
+  "listed": false,
+  "name": "Activity of test (TEST)",
+  "dashboardCreationId": "SL20YBl",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1557838168074
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1557838168074
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
