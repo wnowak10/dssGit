@@ -57,7 +57,7 @@
             "columnType": "NUMERICAL",
             "currentMode": "NUMERICAL",
             "sort": "count",
-            "maxValue": 207.71,
+            "maxValue": 70.67,
             "selectedValues": {}
           },
           "alphanumFilter": {
@@ -90,11 +90,11 @@
   "name": "train_2mb table",
   "dashboardCreationId": "SL20YBl",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1557842084500
+    "lastModifiedOn": 1557842094626
   },
   "creationTag": {
     "versionNumber": 0,
